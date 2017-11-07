@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="Unicode">
+    <style>
+
+        .node circle {
+            fill: #fff;
+            stroke: steelblue;
+            stroke-width: 3px;
+        }
+
+        .node text {
+            font-family: 'Crimson Text', serif;
+        }
+
+        .link {
+            fill: none;
+            stroke: #ccc;
+            stroke-width: 2px;
+        }
+
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+
+</head>
+
+<body>
+<div class="container">
+    <h1>To which house does every Harry Potter character belongs to?</h1>
+    <p>
+        In this web application you can interact with each house of Hogwarts and get to know which characters belong to it.
+        Also you can know which house host the most characters (not surprisingly, it's Gryffindor).
+    </p>
+
+    <div class="row row-eq-height">
+        <div class="col-md-8">
+            <svg id="treeplot" width="100%" height="800"></svg>
+        </div>
+        <div class="col-md-4">
+            <div>
+                <table class="table table-hover">
+                    <tr>
+                        <td>
+                            <h2 class="text-center" id="nameText"></h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4 class="text-center" id="descriptionText"></h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">
+                            <img id="imageCharacter" src="Pics/Gryffindor_Pottermore.png"/>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </div>
+    <small>All the information in this website is used only for entertaiment purposes, all characters descriptions and images belong to www.pottermore.com</small>
+</div>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="treePlot.js"></script>
+</body>
+</html>

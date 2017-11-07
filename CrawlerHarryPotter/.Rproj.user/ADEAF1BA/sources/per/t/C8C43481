@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1509638608160.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2700074396",
+    "id" : "C8C43481",
+    "lastKnownWriteTime" : 1509740467,
+    "last_content_update" : 1509740467403,
+    "path" : "D:/Dropbox/documentos/Visual Analytics/Tarea4.5/CrawlerHarryPotter/crawler.R",
+    "project_path" : "crawler.R",
+    "properties" : {
+        "cursorPosition" : "119,0",
+        "scrollLine" : "105",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

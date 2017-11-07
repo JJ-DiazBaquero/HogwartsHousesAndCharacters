@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1509674099988.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "220A978D",
+    "lastKnownWriteTime" : 29555370778755180,
+    "last_content_update" : 1509674099988,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "907A176E",
+        "caption" : "datosTotales",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=datosTotales&cache_key=907A176E",
+        "displayedObservations" : "79",
+        "environment" : "",
+        "object" : "datosTotales",
+        "preview" : "0",
+        "totalObservations" : "79",
+        "variables" : "4"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

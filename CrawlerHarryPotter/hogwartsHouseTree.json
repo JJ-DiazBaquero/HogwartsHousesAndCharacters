@@ -1,0 +1,542 @@
+{
+ "name": "Hogwarts",
+"descripcion": "Sprawling Scottish castle and celebrated School of Witchcraft and Wizardry",
+"imagen": "Pics/HogwartsCastle_WB_F_HogwartsThroughTheTrees_Illust__Land.jpg",
+"mainColor": "#501e63",
+"secondColor": "#8872b0",
+"children": [
+ {
+ "name": "Gryffindor",
+"descripcion": "With a lion as its crest and Professor McGonagall at its head, Gryffindor is the house which most values the virtues of courage, bravery and determination",
+"imagen": "Pics/Houses/Gryffindor_Pottermore.png",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)",
+"children": [
+ {
+ "name": "Harry Potter",
+"descripcion": "Harry Potter is The Boy Who Lived, singled out by Lord Voldemort at birth to be his greatest rival, and our hero",
+"imagen": "Pics/Harry-Potter-in-cupboard-Jim-Kay-RGB-x.jpg",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)" 
+},
+{
+ "name": "Ron Weasley",
+"descripcion": "One of Harry Potter’s two best friends, fellow Gryffindor, and youngest Weasley son ",
+"imagen": "Pics/Ron_-_Jim_Kay.jpg",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)" 
+},
+{
+ "name": "Hermione Granger ",
+"descripcion": "From bookish Muggle-born to one of Gryffindor's bravest",
+"imagen": "Pics/Hermione_-_Jim_Kay__.jpg",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)" 
+},
+{
+ "name": "Albus Dumbledore",
+"descripcion": "Hogwarts Headmaster, founder of the Order of the Phoenix, with a fondness for sherbet lemons and knitting patterns",
+"imagen": "Pics/Pottermore_CharacterPortraits_Dumbledore_Colour_JH.jpg",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)" 
+},
+{
+ "name": "Minerva McGonagall",
+"descripcion": "The strict but fair Head of Gryffindor house and Transfiguration teacher",
+"imagen": "Pics/MinervaMcGonagall_WB_F_McGonagallHoldingHat_Still__Port.jpg",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)" 
+},
+{
+ "name": "Neville Longbottom",
+"descripcion": "A clumsy but keen Herbology student and shy Gryffindor with great inner strength",
+"imagen": "Pics/NevilleLongbottom_WB_F_NevilleLongbottomFullShot_Still__Port.jpg",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)" 
+},
+{
+ "name": "James Potter",
+"descripcion": "Harry's father, and a member of the Marauders and the first Order of the Phoenix. Murdered by Voldemort during the First Wizarding War",
+"imagen": "Pics/-James-.gif",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)" 
+},
+{
+ "name": "Lily Potter",
+"descripcion": "Harry’s mother, a talented Muggle-born witch who was murdered by Voldemort during the First Wizarding War",
+"imagen": "Pics/Lily.jpg",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)" 
+},
+{
+ "name": "Sirius Black",
+"descripcion": "Harry's Animagus godfather who escaped from Azkaban. Old friend of James and Lily Potter",
+"imagen": "Pics/SiriusBlack_WB_F_SiriusTrappedInTopTower_Image__Land.jpg",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)" 
+},
+{
+ "name": "Remus Lupin",
+"descripcion": "A member of the Order of the Phoenix, Hogwarts teacher, Tonks’ husband - and a werewolf",
+"imagen": "Pics/RemusLupin_WB_F_LupinLookingConcernedInHisOffice_Still__Land.jpg",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)" 
+},
+{
+ "name": "Peter Pettigrew",
+"descripcion": "Loyal follower of Voldemort who betrayed Harry's parents",
+"imagen": "Pics/PeterPettigrew_WB_F_PettigrewPartiallyTransformed_Illust__Land.jpg",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)" 
+},
+{
+ "name": "Rubeus Hagrid",
+"descripcion": "The half-giant Hogwarts gamekeeper loves all creatures and is a tirelessly loyal friend to Harry and Dumbledore",
+"imagen": "Pics/Hagrid_-_Jim_Kay__.jpg",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)" 
+},
+{
+ "name": "Lavender Brown",
+"descripcion": "A sentimental but loyal student and an original member of Dumbledore’s Army. Develops a crush on Ron Weasley",
+"imagen": "Pics/LavenderBrown_WB_F_LavenderWritingInBook_Still__Port.jpg",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)" 
+},
+{
+ "name": "Seamus Finnigan",
+"descripcion": "Gryffindor and member of Dumbledore's Army, dormmates with Harry, Ron, Neville and Dean",
+"imagen": "Pics/SeamusFinnigan_WB_F_SeamusFinniganGrabbingHisCloak_Promo__Port.jpg",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)" 
+},
+{
+ "name": "Dean Thomas",
+"descripcion": "Football-loving Gryffindor and member of Dumbledore’s Army ",
+"imagen": "Pics/DeanThomas_WB_F_DeanThomasLookingInquisitive_Still__Land.jpg",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)" 
+},
+{
+ "name": "Parvati Patil",
+"descripcion": "Harry’s classmate and fellow Gryffindor, best friend of Lavender Brown and member of Dumbledore’s Army",
+"imagen": "Pics/WB_F_ParvatiPatil_CloseUpFilmStill_HPD-.jpg",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)" 
+},
+{
+ "name": "Colin Creevey",
+"descripcion": "This Muggle-born Gryffindor and avid photographer is one of Harry’s most devoted fans ",
+"imagen": "Pics/ColinCreevey_WB_F_ColinHoldingCamera_Still__Land.jpg",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)" 
+},
+{
+ "name": "Dennis Creevey",
+"descripcion": "Colin's equally excitable little brother and the youngest member of Dumbledore's Army",
+"imagen": "Pics/Dennis.jpg",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)" 
+},
+{
+ "name": "Ginny Weasley",
+"descripcion": "The youngest Weasley child. Brave, tenacious and an accomplished Quidditch player",
+"imagen": "Pics/GinnyWeasley_WB_F_GinnyWeasleyPointingWand_Still__Land.jpg",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)" 
+},
+{
+ "name": "Lee Jordan",
+"descripcion": "Friend of the Weasley twins, Quidditch commentator and host of 'Potterwatch'",
+"imagen": "Pics/Lee.jpg",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)" 
+},
+{
+ "name": "Fred Weasley ",
+"descripcion": "George’s twin, Gryffindor Beater and co-owner of Weasleys' Wizard Wheezes",
+"imagen": "Pics/FredGeorgeWeasley_WB_F_FredGeorgeAboutToDrinkPolyjuicePotion_Still__Land.jpg",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)" 
+},
+{
+ "name": "George Weasley",
+"descripcion": "Fred’s twin, Gryffindor Beater and co-owner of Weasleys' Wizard Wheezes",
+"imagen": "Pics/FredGeorgeWeasley_WB_F_FredGeorgeAtWeasleysWizardWheezes_Still__Land.jpg",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)" 
+},
+{
+ "name": "Arthur Weasley",
+"descripcion": "Father of the Weasley family and husband to Molly. Works in the Misuse of Muggle Artefacts Office ",
+"imagen": "Pics/ArthurWeasley_WB_F_ArthurWeasleyMidshot_Promo__Port.jpg",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)" 
+},
+{
+ "name": "Molly Weasley",
+"descripcion": "The formidable Weasley matriarch and member of the Order of the Phoenix. Skilled in non-verbal magic and duelling, loves Harry like a son",
+"imagen": "Pics/MollyWeasley_WB_F_MollyWeasleyCharacterIllustration_V_Illust__Port.tif.jpg",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)" 
+},
+{
+ "name": "Bill Weasley",
+"descripcion": "Laidback eldest Weasley sibling and member of the Order of the Phoenix",
+"imagen": "Pics/BillWeasley_WB_F_BillOutsideShellCottage_Still__Port.jpg",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)" 
+},
+{
+ "name": "Charlie Weasley",
+"descripcion": "Second eldest Weasley sibling and dragon aficionado",
+"imagen": "Pics/CharlieWeasley_PM_BCM_WeasleysHermioneHarryPlayingInGarden_Moment.jpg",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)" 
+},
+{
+ "name": "Percy Weasley",
+"descripcion": "Sensible and pompous, Percy is the third eldest Weasley sibling",
+"imagen": "Pics/WB_F_Percy_Weasley__HPD-.jpg",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)" 
+},
+{
+ "name": "Romilda Vane",
+"descripcion": "An admirer of Harry Potter and a fellow Gryffindor. She spent much of Harry's sixth year trying to slip him a love potion. ",
+"imagen": "Pics/WB_F_RomildaVaneInLibrary_FaceOn_HPD-.jpg",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)" 
+},
+{
+ "name": "Oliver Wood",
+"descripcion": "Gryffindor Quidditch Keeper and captain for Harry’s first four years on the team",
+"imagen": "Pics/OliverWood_WB_F_OliverWoodFullbody_Promo__Port.jpg",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)" 
+},
+{
+ "name": "Angelina Johnson",
+"descripcion": "A Chaser on the Gryffindor Quidditch team who becomes captain after Oliver Wood",
+"imagen": "Pics/Angelina.jpg",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)" 
+},
+{
+ "name": "Katie Bell",
+"descripcion": "A Chaser on the Gryffindor Quidditch team and member of Dumbledore’s Army ",
+"imagen": "Pics/Katie.jpg",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)" 
+},
+{
+ "name": "Alicia Spinnet",
+"descripcion": "A Chaser on the Gryffindor Quidditch team and member of Dumbledore’s Army ",
+"imagen": "Pics/Alicia.jpg",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)" 
+},
+{
+ "name": "Cormac McLaggen",
+"descripcion": "Gryffindor student and Slug Club member who takes a liking to Hermione, and unsuccessfully competes to become Gryffindor Keeper",
+"imagen": "Pics/CormacMcLaggen_WB_F_CormacClose-UpInGoalHoopQuidditchKeeper_HP-VFX-.jpg",
+"mainColor": "rgb(116,0,1)",
+"secondColor": "rgb(238,186,48)" 
+} 
+] 
+},
+{
+ "name": "Ravenclaw",
+"descripcion": "Ravenclaws prize wit, learning, and wisdom. It's an ethos etched into founder Rowena Ravenclaw diadem: 'wit beyond measure is man's greatest treasure'",
+"imagen": "Pics/Houses/Ravenclaw_Pottermore.png",
+"mainColor": "rgb(34,47,91)",
+"secondColor": "rgb(148,107,45)",
+"children": [
+ {
+ "name": "Luna Lovegood",
+"descripcion": "Unique Ravenclaw, true friend and artist",
+"imagen": "Pics/LunaLovegood_WB_F_LunaLovegoodQuibblerFullLengthPromoShot_Promo__Port.jpg",
+"mainColor": "rgb(34,47,91)",
+"secondColor": "rgb(148,107,45)" 
+},
+{
+ "name": "Cho Chang",
+"descripcion": "Ravenclaw Seeker, member of Dumbledore’s Army, Harry’s first crush",
+"imagen": "Pics/ChoChang_WB_F_ChoChangPointingWand_Promo__Port.jpg",
+"mainColor": "rgb(34,47,91)",
+"secondColor": "rgb(148,107,45)" 
+},
+{
+ "name": "Gilderoy Lockhart",
+"descripcion": "Author, professor and five-time winner of Witch Weekly's Most Charming Smile Award ",
+"imagen": "Pics/GilderoyLockhart_WB_F_GilderoyLockhartGrinning_Still__Land.jpg",
+"mainColor": "rgb(34,47,91)",
+"secondColor": "rgb(148,107,45)" 
+},
+{
+ "name": "The Grey Lady",
+"descripcion": "The mysterious and shy ghost of Ravenclaw Tower, who hides a deep secret.",
+"imagen": "Pics/Pottermore--the_grey_lady-AWork.jpg",
+"mainColor": "rgb(34,47,91)",
+"secondColor": "rgb(148,107,45)" 
+},
+{
+ "name": "Filius Flitwick",
+"descripcion": "Hogwarts Charms professor and Head of Ravenclaw house",
+"imagen": "Pics/FiliusFlitwick_WB_F_FlitwickStugglingToCarryBooks_Promo__Port.jpg",
+"mainColor": "rgb(34,47,91)",
+"secondColor": "rgb(148,107,45)" 
+},
+{
+ "name": "Sybill Trelawney",
+"descripcion": "Divination professor at Hogwarts who has prophesied accurately at least twice",
+"imagen": "Pics/SybilTrelawney_WB_F_HeadshotOfTrelawney_Still__Land.jpg",
+"mainColor": "rgb(34,47,91)",
+"secondColor": "rgb(148,107,45)" 
+},
+{
+ "name": "Quirinus Quirrell",
+"descripcion": "Stuttering, nervous Defence Against the Dark Arts professor who's hiding a dark secret",
+"imagen": "Pics/QuirinusQuirrell_WB_F_QuirinusQuirrellFullbody_Promo__Port.jpg",
+"mainColor": "rgb(34,47,91)",
+"secondColor": "rgb(148,107,45)" 
+},
+{
+ "name": "Garrick Ollivander",
+"descripcion": "Considered by many to be the world's best wandmaker, almost everyone at Hogwarts gets their wands from him",
+"imagen": "Pics/GarrickOllivander_WB_F_OllivandersExaminesHarrysWand_Still__Port.jpg",
+"mainColor": "rgb(34,47,91)",
+"secondColor": "rgb(148,107,45)" 
+},
+{
+ "name": "Moaning Myrtle",
+"descripcion": "Hogwarts ghost who haunts the girls' toilets on the first floor",
+"imagen": "Pics/MoaningMyrtle_PM_B_MyrtleInHerBathroom_Individual.jpg",
+"mainColor": "rgb(34,47,91)",
+"secondColor": "rgb(148,107,45)" 
+},
+{
+ "name": "Marietta Edgecombe",
+"descripcion": "Ravenclaw student and friend of Cho Chang. Her betrayal of Dumbledore's Army led to Umbridge being able to find and disband the group. ",
+"imagen": "Pics/Marietta.jpg",
+"mainColor": "rgb(34,47,91)",
+"secondColor": "rgb(148,107,45)" 
+},
+{
+ "name": "Padma Patil",
+"descripcion": "Parvati Patil’s twin sister and member of Dumbledore’s Army",
+"imagen": "Pics/Padma.jpg",
+"mainColor": "rgb(34,47,91)",
+"secondColor": "rgb(148,107,45)" 
+},
+{
+ "name": "Terry Boot",
+"descripcion": "Ravenclaw student and member of Dumbledore's Army",
+"imagen": "Pics/Terry.jpg",
+"mainColor": "rgb(34,47,91)",
+"secondColor": "rgb(148,107,45)" 
+},
+{
+ "name": "Michael Corner",
+"descripcion": "Ravenclaw, member of Dumbledore's Army and one-time romantic interest of Ginny Weasley",
+"imagen": "Pics/Michael_Corner.jpg",
+"mainColor": "rgb(34,47,91)",
+"secondColor": "rgb(148,107,45)" 
+},
+{
+ "name": "Anthony Goldstein",
+"descripcion": "Ravenclaw Prefect and a member of Dumbledore's Army",
+"imagen": "Pics/Anthony_Goldstein.jpg",
+"mainColor": "rgb(34,47,91)",
+"secondColor": "rgb(148,107,45)" 
+} 
+] 
+},
+{
+ "name": "Hufflepuff",
+"descripcion": "Hufflepuffs value hard work, patience, loyalty, and fair play. The house has produced its share of great wizards <U+0096> not least Newt Scamander, author of Fantastic Beasts and Where to Find Them",
+"imagen": "Pics/Houses/Hufflepuff_Pottermore.png",
+"mainColor": "rgb(236,185,57)",
+"secondColor": "rgb(0,0,0)",
+"children": [
+ {
+ "name": "Newt Scamander",
+"descripcion": "Magizoologist and writer of the textbook ‘Fantastic Beasts and Where to Find Them'",
+"imagen": "Pics/FB-TRL-_NH.jpg",
+"mainColor": "rgb(236,185,57)",
+"secondColor": "rgb(0,0,0)" 
+},
+{
+ "name": "Pomona Sprout",
+"descripcion": "Herbology Professor and expert in dangerous plants. Head of Hufflepuff house",
+"imagen": "Pics/PomonaSprout_WB_F_PomonaSproutCharacterIllustration_Illust__Port.jpg",
+"mainColor": "rgb(236,185,57)",
+"secondColor": "rgb(0,0,0)" 
+},
+{
+ "name": "The Fat Friar",
+"descripcion": "A cheerful Hufflepuff ghost who still resents the fact he was never made a cardinal in life",
+"imagen": "Pics/Pottermore--Fat_Friar--AWork.jpg",
+"mainColor": "rgb(236,185,57)",
+"secondColor": "rgb(0,0,0)" 
+},
+{
+ "name": "Nymphadora Tonks",
+"descripcion": "A Metamorphmagus and Auror with distinctive hair. Member of the Order of the Phoenix ",
+"imagen": "Pics/NymphadoraTonks_WB_F_NympadoraTonksPromoShot_Promo__Port.jpg",
+"mainColor": "rgb(236,185,57)",
+"secondColor": "rgb(0,0,0)" 
+},
+{
+ "name": "Cedric Diggory",
+"descripcion": "Popular Hufflepuff Seeker and competitor in the Triwizard Tournament",
+"imagen": "Pics/CedricDiggory_WB_F_CedricDiggoryWithHandsInPockets_Promo__Port.jpg",
+"mainColor": "rgb(236,185,57)",
+"secondColor": "rgb(0,0,0)" 
+},
+{
+ "name": "Hannah Abbott",
+"descripcion": "Hufflepuff prefect and a loyal member of Dumbledore's Army",
+"imagen": "Pics/Hannah.jpg",
+"mainColor": "rgb(236,185,57)",
+"secondColor": "rgb(0,0,0)" 
+},
+{
+ "name": "Ernie Macmillan",
+"descripcion": "A slightly pompous Hufflepuff who was convinced that Harry was the heir of Slytherin",
+"imagen": "Pics/Ernie.jpg",
+"mainColor": "rgb(236,185,57)",
+"secondColor": "rgb(0,0,0)" 
+},
+{
+ "name": "Zacharias Smith",
+"descripcion": "Smug member of Dumbledore's Army and one of the first to flee the Battle of Hogwarts",
+"imagen": "Pics/Zach.jpg",
+"mainColor": "rgb(236,185,57)",
+"secondColor": "rgb(0,0,0)" 
+},
+{
+ "name": "Susan Bones",
+"descripcion": "Niece of Amelia Bones, who was Head of the Department of Magical Law Enforcement, and a member of Dumbledore's Army",
+"imagen": "Pics/Susan.jpg",
+"mainColor": "rgb(236,185,57)",
+"secondColor": "rgb(0,0,0)" 
+},
+{
+ "name": "Justin Finch-Fletchley",
+"descripcion": "Muggle-born Hufflepuff student who was also accepted to Eton",
+"imagen": "Pics/Justin.jpg",
+"mainColor": "rgb(236,185,57)",
+"secondColor": "rgb(0,0,0)" 
+} 
+] 
+},
+{
+ "name": "Slytherin",
+"descripcion": "Slytherin produces more than its share of Dark wizards, but also turns out leaders who are proud, ambitious and cunning. Merlin is one particularly famous Slytherin",
+"imagen": "Pics/Houses/Slytherin_Pottermore.png",
+"mainColor": "rgb(26,71,42)",
+"secondColor": "rgb(170,170,170)",
+"children": [
+ {
+ "name": "Severus Snape",
+"descripcion": "Hogwarts Potions master, Head of Slytherin house and former Death Eater. Holds a grudge against Harry ",
+"imagen": "Pics/Pottermore_CharacterPortraits_Snape_Colour_JH.jpg",
+"mainColor": "rgb(26,71,42)",
+"secondColor": "rgb(170,170,170)" 
+},
+{
+ "name": "Draco Malfoy",
+"descripcion": "A pure-blood wizard, proud Slytherin and Harry Potter’s arch rival at Hogwarts",
+"imagen": "Pics/PM_Draco_Malfoy_passageways_illustration.jpg",
+"mainColor": "rgb(26,71,42)",
+"secondColor": "rgb(170,170,170)" 
+},
+{
+ "name": "Horace Slughorn",
+"descripcion": "Well-connected Potions master and founder of the Slug Club",
+"imagen": "Pics/HoraceSlughorn_WB_F_HoraceSlughornCharacterIllustration_V_Illust__Port.jpg",
+"mainColor": "rgb(26,71,42)",
+"secondColor": "rgb(170,170,170)" 
+},
+{
+ "name": "The Bloody Baron",
+"descripcion": "The Slytherin Ghost is a gaunt and silent spectre covered in silver bloodstains. ",
+"imagen": "Pics/Pottermore--Bloody_Baron-AW.jpg",
+"mainColor": "rgb(26,71,42)",
+"secondColor": "rgb(170,170,170)" 
+},
+{
+ "name": "Bellatrix Lestrange",
+"descripcion": "One of Voldemort’s most loyal Death Eaters, sent to Azkaban for her crimes. A dangerous witch and skilled duelist",
+"imagen": "Pics/BellatrixLestrange_WB_F_BellatrixLestrangeCharacterIllustration_V_Illust__Port.jpg",
+"mainColor": "rgb(26,71,42)",
+"secondColor": "rgb(170,170,170)" 
+},
+{
+ "name": "Dolores Umbridge",
+"descripcion": "A half-blood witch who is a sinister Ministry bureaucrat and one-time Hogwarts teacher",
+"imagen": "Pics/DoloresUmbridge_WB_F_DoloresUmbridgeCharacterIllustration_V_Illust__Port.tif.jpg",
+"mainColor": "rgb(26,71,42)",
+"secondColor": "rgb(170,170,170)" 
+},
+{
+ "name": "Vincent Crabbe",
+"descripcion": "One half of Draco Malfoy's duo of hulking henchmen",
+"imagen": "Pics/VincentCrabbe_WB_F_CrabbeGoyleMalfoyInquisitorialSquad_Still__Land.jpg",
+"mainColor": "rgb(26,71,42)",
+"secondColor": "rgb(170,170,170)" 
+},
+{
+ "name": "Gregory Goyle",
+"descripcion": "One of Draco Malfoy’s two thuggish Slytherin sidekicks",
+"imagen": "Pics/Goyle_PM_BCM_DracoCrabbeGoyleHarryRonHermioneHexBigTeeth_Moment.jpg",
+"mainColor": "rgb(26,71,42)",
+"secondColor": "rgb(170,170,170)" 
+},
+{
+ "name": "Lucius Malfoy ",
+"descripcion": "Draco's father who serves Lord Voldemort as a Death Eater in both Wizarding Wars",
+"imagen": "Pics/LuciusMalfoy_WB_F_LuciusMalfoyMidshot_V_Promo__Port.jpg",
+"mainColor": "rgb(26,71,42)",
+"secondColor": "rgb(170,170,170)" 
+},
+{
+ "name": "Narcissa Malfoy",
+"descripcion": "Pure-blood witch whose only redeeming quality is her great love for her son, Draco",
+"imagen": "Pics/NarcissaMalfoy_WB_F_NarcissaAndBellatrixSpinnersEnd_Still__Port.jpg",
+"mainColor": "rgb(26,71,42)",
+"secondColor": "rgb(170,170,170)" 
+},
+{
+ "name": "Pansy Parkinson",
+"descripcion": "Slytherin student, ardent admirer of Draco Malfoy and member of the Inquisitorial Squad",
+"imagen": "Pics/HP-VFX-.jpg",
+"mainColor": "rgb(26,71,42)",
+"secondColor": "rgb(170,170,170)" 
+},
+{
+ "name": "Blaise Zabini",
+"descripcion": "Slytherin student, friend of Draco Malfoy and member of the Slug Club",
+"imagen": "Pics/BlaiseZabini_WB_F_BlaiseZabiniAtSlughornsDinnerParty_Still__Land.jpg",
+"mainColor": "rgb(26,71,42)",
+"secondColor": "rgb(170,170,170)" 
+},
+{
+ "name": "Tom Riddle",
+"descripcion": "A troubled young wizard with an affinity for the Dark Arts and manipulation",
+"imagen": "Pics/TomRiddle_WB_F_StandingInChamberOfSecrets_Still__Port.jpg",
+"mainColor": "rgb(26,71,42)",
+"secondColor": "rgb(170,170,170)" 
+},
+{
+ "name": "Lord Voldemort",
+"descripcion": "Formerly known as Tom Marvolo Riddle and commonly referred to as He-Who-Must-Not-Be-Named. The most powerful Dark wizard of all time",
+"imagen": "Pics/LittleHangletonGraveyard_PM_BCM_VoldemortRises_Moment.jpg",
+"mainColor": "rgb(26,71,42)",
+"secondColor": "rgb(170,170,170)" 
+} 
+] 
+} 
+] 
+}

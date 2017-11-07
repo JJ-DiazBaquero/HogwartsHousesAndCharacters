@@ -1,0 +1,119 @@
+library(Rcrawler)
+#Ejemplo de una afiliacion
+Rcrawler("https://www.pottermore.com/collection/characters-gryffindors",MaxDepth = 1,
+               ExtractXpathPat =c("/html/body/article[1]/div[1]/header/hgroup/div/h1",
+                                   "/html/body/article[1]/div[2]/div/div[1]/div[2]/div/p",
+                                  "//img/@data-src"),
+               RequestsDelay = 5,PatternsName = c("Nombre", "Descripción","Imagen"))
+
+vectorNombre = unlist(lapply(DATA, `[[`, 1))
+vectorDesc = unlist(lapply(DATA, `[[`, 2))
+vectorImg = unlist(lapply(DATA, `[[`, 3))
+vectorCasa = rep("Griffindor",length(vectorNombre))
+
+datosTotales = data.frame(Nombre = vectorNombre, 
+                          Descripcion = vectorDesc, 
+                          Afiliacion = vectorCasa,
+                          Imagen = vectorImg)
+datosTotales = datosTotales[complete.cases(datosTotales),]
+
+Rcrawler("https://www.pottermore.com/collection/characters-ravenclaws",MaxDepth = 1,
+               ExtractXpathPat =c("/html/body/article[1]/div[1]/header/hgroup/div/h1",
+                                  "/html/body/article[1]/div[2]/div/div[1]/div[2]/div/p",
+                                  "//img/@data-src"),
+               RequestsDelay = 5,PatternsName = c("Nombre", "Descripción","Imagen"))
+
+vectorNombre = unlist(lapply(DATA, `[[`, 1))
+vectorDesc = unlist(lapply(DATA, `[[`, 2))
+vectorImg = unlist(lapply(DATA, `[[`, 3))
+vectorCasa = rep("Ravenclaw",length(vectorNombre))
+
+datosTotales = rbind(datosTotales,
+                     data.frame(Nombre = vectorNombre, 
+                                Descripcion = vectorDesc, 
+                                Afiliacion = vectorCasa,
+                                Imagen = vectorImg))
+
+Rcrawler("https://www.pottermore.com/collection/characters-hufflepuffs",MaxDepth = 1,
+               ExtractXpathPat =c("/html/body/article[1]/div[1]/header/hgroup/div/h1",
+                                  "/html/body/article[1]/div[2]/div/div[1]/div[2]/div/p",
+                                  "//img/@data-src"),
+               RequestsDelay = 5,PatternsName = c("Nombre", "Descripción","Imagen"))
+
+vectorNombre = unlist(lapply(DATA, `[[`, 1))
+vectorDesc = unlist(lapply(DATA, `[[`, 2))
+vectorImg = unlist(lapply(DATA, `[[`, 3))
+vectorCasa = rep("Hufflepuff",length(vectorNombre))
+
+datosTotales = rbind(datosTotales,
+                     data.frame(Nombre = vectorNombre, 
+                                Descripcion = vectorDesc, 
+                                Afiliacion = vectorCasa,
+                                Imagen = vectorImg))
+datosTotales = datosTotales[complete.cases(datosTotales),]
+
+
+Rcrawler("https://www.pottermore.com/collection/characters-slytherins",MaxDepth = 1,
+         ExtractXpathPat =c("/html/body/article[1]/div[1]/header/hgroup/div/h1",
+                            "/html/body/article[1]/div[2]/div/div[1]/div[2]/div/p",
+                            "//img/@data-src"),
+         RequestsDelay = 5,PatternsName = c("Nombre", "Descripción","Imagen"))
+
+vectorNombre = unlist(lapply(DATA, `[[`, 1))
+vectorDesc = unlist(lapply(DATA, `[[`, 2))
+vectorImg = unlist(lapply(DATA, `[[`, 3))
+vectorCasa = rep("Slytherin",length(vectorNombre))
+
+datosTotales = rbind(datosTotales,
+                     data.frame(Nombre = vectorNombre, 
+                                Descripcion = vectorDesc, 
+                                Afiliacion = vectorCasa,
+                                Imagen = vectorImg))
+datosTotales = datosTotales[complete.cases(datosTotales),]
+
+write.csv(datosTotales, "datos.csv", row.names = F)
+
+
+#Quitar libros
+datosTotales = datosTotales[which(!datosTotales$Nombre %in% c("Fantastic Beasts and Where to Find Them",
+                                                             "Harry Potter and the Cursed Child")),]
+
+
+#pruebas de scraping
+ejemplo = ContentScraper("https://www.pottermore.com/collection/characters",
+               CssPatterns = c(".collection-artefact__description"),
+               ManyPerPattern = T, PatternsName = c("Grupo"))
+
+url = "https://www.pottermore.com/explore-the-story/minerva-mcgonagall"
+url = "https://www.pottermore.com/explore-the-story/harry-potter"
+ejemploPagChar = ContentScraper(url,
+                                XpathPatterns = c("/html/body/article[1]/div[1]/header/hgroup/div/h1",
+                                                  "/html/body/article[1]/div[2]/div/div[1]/div[2]/div/p",
+                                                  "//img/@data-src"),
+                                PatternsName = c("Nombre", "Descripción", "Imagen"))
+"/html/body/article[1]/div[2]/div/div[1]/div[1]/div/picture/img"
+ejemploPagChar$Imagen
+
+for(i in length(datosTotales)){
+  datosTotales[,i] = as.character(datosTotales[,i])
+}
+datosTotales[,3] = as.character(datosTotales[,3])
+
+#imprimir en formato JSON
+library(RJSONIO)
+casas = unique(datosTotales$Afiliacion)
+listaCasas = list()
+for(i in casas){
+  listaPersonajes = list()
+  personajes = datosTotales[datosTotales$Afiliacion == i,]
+  for(j in 1:nrow(personajes)){
+    listaPersonajes = append(listaPersonajes,
+                             list(list(name = personajes$Nombre[j],
+                                  descripcion =personajes$Descripcion[j],
+                                  imagen = personajes$Imagen)))
+  }
+  listaCasas = append(listaCasas,list(list(name = i,
+                                       children = listaPersonajes)))
+}
+listaHogwarts = list(name = "Hogwarts", children = listaCasas)
+write(toJSON(listaHogwarts,pretty= T),file = "hogwartsHouseTree.json")
