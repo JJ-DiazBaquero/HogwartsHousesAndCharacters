@@ -1,4 +1,4 @@
-# HogwartsHousesAndCharacters
+# Hogwarts Houses And Characters
 
 This is a personal proyect I did to create a Web app to Categorize Harry Potter characters according to their Hogwarts house
 
